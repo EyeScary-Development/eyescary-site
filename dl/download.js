@@ -73,9 +73,7 @@ function SetdlOptions(inFileName) {
   let dLink = document.getElementById("directLink");
   let ghLink = document.getElementById("GitHubLink");
 
-  gdLink.innerHTML = "Google Drive Link: " + gDriveLink;
-  dLink.innerHTML = "Direct Download (Cloudflare CDN) Link: " + directLink;
-  ghLink.innerHTML = "GitHub Link: " + GitHubLink;
+  dLink.innerHTML = "Direct Download: " + directLink;
 
   if (gDriveLink == "None") {
     gdLink.href = "../";

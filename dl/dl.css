@@ -1,0 +1,31 @@
+h1 {
+    font-size: 5vw;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+a {
+    font-size: 2vw;
+    text-align: center;
+    color: #d1d4dc;
+    text-decoration: none;
+}
+
+#butonkinda {
+    background-color: #252526;
+    color: white;
+    border-radius: 18px;
+    text-align: center;
+    padding: 24px;
+    with: auto;
+}
+
+body {
+    background-color: #1a1a1a;
+    font-family: Calibri, sans-serif;
+    color: #d1d4dc;
+}
