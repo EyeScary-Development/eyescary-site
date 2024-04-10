@@ -6,18 +6,6 @@ function SetdlOptions(inFileName) {
     //Keep this up to date with files
     files: [
       {
-        fileName: "EEEEEE.zip",
-        gDriveLink: "None",
-        directLink: "code/EEEEEE.zip",
-        GitHubLink: "None",
-      },
-      {
-        fileName: "infiwriteRust.zip",
-        gDriveLink: "None",
-        directLink: "compiledprograms/infiwriteRust.zip",
-        GitHubLink: "None",
-      },
-      {
         fileName: "ESDlang.zip",
         gDriveLink: "None",
         directLink: "es/ESDlang.zip",
