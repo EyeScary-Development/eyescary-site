@@ -15,13 +15,14 @@ a {
     text-decoration: none;
 }
 
-#butonkinda {
+.buttonkinda {
     background-color: #252526;
     color: white;
     border-radius: 18px;
     text-align: center;
     padding: 24px;
     width: auto;
+    float: center;
 }
 
 body {

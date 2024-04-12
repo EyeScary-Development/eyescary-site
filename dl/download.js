@@ -1,5 +1,6 @@
 var fileObject = "";
 var data = {};
+var fileName = "";
 
 function SetdlOptions(inFileName) {
   data = {
@@ -41,13 +42,22 @@ function SetdlOptions(inFileName) {
   try {
     fileObject = data.files.find((file) => file.fileName === inFileName);
   } catch {
-    document.getElementById("h2FileDisp").innerHTML =
-      "That File Doesn't Exist.";
+    document.getElementById("h2FileDisp").innerHTML = "That File Doesn't Exist.";
     console.log(data);
   }
 
+  let gdLink = document.getElementById("gDriveLink");
+  let dLink = document.getElementById("directLink");
+  let ghLink = document.getElementById("GitHubLink");
+
   // Extract the relevant information
-  const fileName = fileObject.fileName;
+  try {
+    fileName = fileObject.fileName;
+  } catch {
+    document.getElementById("h2FileDisp").innerHTML = "That File Doesn't Exist.";
+    console.log(data);
+  }
+
   const gDriveLink = fileObject.gDriveLink;
   const directLink = fileObject.directLink;
   const GitHubLink = fileObject.GitHubLink;
@@ -57,28 +67,28 @@ function SetdlOptions(inFileName) {
   console.log("Direct Link:", directLink);
   console.log("GitHub Link:", GitHubLink);
 
-  let gdLink = document.getElementById("gDriveLink");
-  let dLink = document.getElementById("directLink");
-  let ghLink = document.getElementById("GitHubLink");
-
-  dLink.innerHTML = "Direct Download: " + directLink;
-
   if (gDriveLink == "None") {
     gdLink.href = "../";
+    gdLink.innerHTML = "Google Drive Download: None";
   } else {
     gdLink.href = gDriveLink;
+    gdLink.innerHTML = "Google Drive Download: " + gDriveLink;
   }
 
   if (directLink == "None") {
     dLink.href = "../";
+    dLink.innerHTML = "Direct Download: None";
   } else {
     dLink.href = directLink;
+    dLink.innerHTML = "Direct Download: " + directLink;
   }
 
   if (GitHubLink == "None") {
     ghLink.href = "../";
+    ghLink.innerHTML = "GitHub Download: None";
   } else {
     ghLink.href = ghLink;
+    ghLink.innerHTML = "GitHub Download: " + GitHubLink;
   }
 }
 
