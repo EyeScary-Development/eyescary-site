@@ -21,11 +21,15 @@ a {
     border-radius: 18px;
     text-align: center;
     padding: 24px;
-    with: auto;
+    width: auto;
 }
 
 body {
     background-color: #1a1a1a;
     font-family: Calibri, sans-serif;
     color: #d1d4dc;
+    background-image: url('https://wilburwilliams.uk/assets/background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
