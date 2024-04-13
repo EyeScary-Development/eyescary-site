@@ -80,3 +80,8 @@ button:hover{
     background-color: orangered;
     color:aqua;
 }
+
+#theentireeffingpage {
+    margin-left: 10%;
+    margin-right: 10%;
+}
