@@ -1,7 +1,9 @@
+@import url("https://dev.wilburwilliams.uk/fonts/Calibri.css"); /* Make sure taht teh Calibri font is working and doesn't break*/
+
 body {
     color: #d1d4dc; /* Light grey text color for better contrast on dark backgrounds */
     background-color: #1a1a1a; /* Dark background */
-    font-family:'Calibri', Helvetica, sans-serif;
+    font-family: 'Calibri', sans-serif;
     text-align: center;
     font-size: larger;
     font-weight: bolder;
