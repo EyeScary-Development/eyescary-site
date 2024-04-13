@@ -20,12 +20,13 @@ header h1 {
 }
   
 .topbar {
-    width:100%;
+    display: flex;
     justify-content: center;
     background: #252526;
     padding: 1.0rem;
     border-radius:32px;
 }
+
   
 .topbar button {
     color: white;
