@@ -36,6 +36,12 @@ function SetdlOptions(inFileName) {
         directLink: "es/Stronge_v0.4.zip",
         GitHubLink: "None",
       },
+      {
+        fileName: "Stronge_v0.5.zip",
+        gDriveLink: "None",
+        directLink: "es/Stronge._v0.5.zip",
+        GitHubLink: "None",
+      },
     ],
   };
 
