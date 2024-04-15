@@ -39,25 +39,25 @@ function SetdlOptions(inFileName) {
       {
         fileName: "Stronge_v0.5.zip",
         gDriveLink: "None",
-        directLink: "es/Stronge._v0.5.zip",
+        directLink: "es/Stronge_v0.5.zip",
         GitHubLink: "None",
       },
       {
         fileName: "Stronge_v0.6.zip",
         gDriveLink: "None",
-        directLink: "es/Stronge._v0.6.zip",
+        directLink: "es/Stronge_v0.6.zip",
         GitHubLink: "None",
       },
       {
         fileName: "Stronge_v0.7.zip",
         gDriveLink: "None",
-        directLink: "es/Stronge._v0.7.zip",
+        directLink: "es/Stronge_v0.7.zip",
         GitHubLink: "None",
       },
       {
         fileName: "Stronge_v0.8.zip",
         gDriveLink: "None",
-        directLink: "es/Stronge._v0.8.zip",
+        directLink: "es/Stronge_v0.8.zip",
         GitHubLink: "None",
       }
     ],
