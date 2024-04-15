@@ -7,9 +7,9 @@ function SetdlOptions(inFileName) {
     //Keep this up to date with files
     files: [
       {
-        fileName: "ESDlang.zip",
+        fileName: "ESDLang.zip",
         gDriveLink: "None",
-        directLink: "es/ESDlang.zip",
+        directLink: "es/ESDLang.zip",
         GitHubLink: "None",
       },
       {
@@ -42,13 +42,32 @@ function SetdlOptions(inFileName) {
         directLink: "es/Stronge._v0.5.zip",
         GitHubLink: "None",
       },
+      {
+        fileName: "Stronge_v0.6.zip",
+        gDriveLink: "None",
+        directLink: "es/Stronge._v0.6.zip",
+        GitHubLink: "None",
+      },
+      {
+        fileName: "Stronge_v0.7.zip",
+        gDriveLink: "None",
+        directLink: "es/Stronge._v0.7.zip",
+        GitHubLink: "None",
+      },
+      {
+        fileName: "Stronge_v0.8.zip",
+        gDriveLink: "None",
+        directLink: "es/Stronge._v0.8.zip",
+        GitHubLink: "None",
+      }
     ],
   };
 
   try {
     fileObject = data.files.find((file) => file.fileName === inFileName);
   } catch {
-    document.getElementById("h2FileDisp").innerHTML = "That File Doesn't Exist.";
+    document.getElementById("h2FileDisp").innerHTML =
+      "That File Doesn't Exist.";
     console.log(data);
   }
 
@@ -60,7 +79,8 @@ function SetdlOptions(inFileName) {
   try {
     fileName = fileObject.fileName;
   } catch {
-    document.getElementById("h2FileDisp").innerHTML = "That File Doesn't Exist.";
+    document.getElementById("h2FileDisp").innerHTML =
+      "That File Doesn't Exist.";
     console.log(data);
   }
 

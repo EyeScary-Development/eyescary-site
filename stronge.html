@@ -1,82 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
     <head>
         <title>Stronge editor - EyeScary Development</title>
-        <link rel="STYLESHEET" href="style.css">
+        <link rel="STYLESHEET" href="style.css" />
     </head>
     <body>
-    <div id="theentireeffingpage">
-        <div class="topbar">
-            <a href="index.html"><button class="button">Home</button></a>
-            <a href="ESDlang.html"><button class="button">ESDlang</button></a>
-            <a href="stronge.html"><button class="button">Stronge code editor</button></a>
-            <a href="padms.html"><button class="button">Padms</button></a>
-            <a href="allversiondownloads.html"><button class="button">All our downloads</button></a>
+        <div id="theentireeffingpage">
+            <div class="topbar">
+                <a href="index.html"><button class="button">Home</button></a>
+                <a href="ESDlang.html"
+                    ><button class="button">ESDlang</button></a
+                >
+                <a href="stronge.html"
+                    ><button class="button">Stronge code editor</button></a
+                >
+                <a href="padms.html"><button class="button">Padms</button></a>
+                <a href="allversiondownloads.html"
+                    ><button class="button">All our downloads</button></a
+                >
+            </div>
+            <div class="header">
+                <h1>Stronge</h1>
+                <p>
+                    NEWS!: Stronge made a major jump to 0.8, in here is now
+                    autocomplete (<code> w cool!</code> will become
+                    <code>write cool!</code>) Syntax highlighting for ESDLang
+                    (orange=number, red=error, yellow=warning, green= general
+                    text, blue=ESDLang function), there is also a new command
+                    set (savrun now run, savex now exit, filclr now reset, ins
+                    now rewrite, delln now delete, newln and newln : replaced by
+                    insert (line number)
+                </p>
+            </div>
+            <div class="main">
+                <p>Stronge is a minimal code editor written in Python</p>
+                <h2>Features:</h2>
+                <p>Write to any file type</p>
+                <p>
+                    if your code is in ESDlang it will work seamlessly with
+                    stronge, through our autocomplete and syntax highlighting,
+                    it's also executable with our built in interpreter!
+                </p>
+                <h2>Can I download it?</h2>
+                <p>sure, the latest version is available below:</p>
+                <a href="dl/?fileName=Stronge_v0.8.zip"
+                    ><button class="buttonlt">
+                        Stronge code editor v0.8
+                    </button></a
+                >
+                <h3>But how?</h3>
+                <a href="Stronge/docs.html">
+                    <button class="buttonlt">Docs here</button>
+                </a>
+            </div>
         </div>
-        <div class="header">
-            <h1>Stronge</h1>
-            <p>
-                NEWS!: Stronge 0.5 super early preview is out now! you can now
-                add new lines before a line by typing <code>newln :</code> and
-                the line number you want a newline after
-            </p>
-        </div>
-        <div class="main">
-            <p>Stronge is a minimal code editor written in Python</p>
-            <h2>Features:</h2>
-            <p>Write to any file type</p>
-            <p>
-                if your code is in ESDlang it will work seamlessly with stronge,
-                and is executable with our built in interpreter!
-            </p>
-            <h2>Can I download it?</h2>
-            <p>
-                sure, the latest completely stable preview is available below:
-            </p>
-            <a href="dl?fileName=Stronge_v0.2.zip"><button class="buttonlt">Download v0.2 preview here</button></a>
-            <p>
-                <b>
-                    this is an older, fully stable version of stronge, features
-                    like changing previous lines are not in this version, this
-                    also uses an older version of esdlang. But these features
-                    can be found in stronge 0.3 and later
-                </b>
-            </p>
-            <p>
-                when you launch stronge, it will prompt you to come up with a
-                filename, then a file extension, put your chosen file extension
-                here or leave the input blank for .txt, then get to writing
-                code! to clear a file, type <code>filclr</code> on a new line,
-                to save a file and exit, type <code>savex</code> on a new line,
-                and to run your ESDLang code, type <code>savrun</code> on a new
-                line
-            </p>
-            <br>
-            <p>
-                looking for something new? how about Stronge 0.5 super
-                early preview? using <code>newln :(linenumber)</code> you can now
-                add new lines before any line, too!
-            </p>
-            
-            <a href="dl/?fileName=Stronge_v0.5.zip"
-                ><button class="buttonlt">
-                    Download version 0.5 super early preview here
-                </button></a>
-            <h3>new commands only in super early preview stronge versions:</h3>
-            <p>
-                formatting the <code>ins</code> command: type <code>ins</code>,
-                space and then the line number you would like to amend, 2 colons
-                will pop up and this is where you write your amended line
-            </p>
-            <p>
-                formatting the <code>newln</code> command: type
-                <code>newln</code>, space and then the line number you want to
-                add a new line after, you can also use <code>newln :</code> and
-                the line number you want to create a new line before a line
-                (mainly to be used for adding a newline before the current first
-                line)
-            </p>
-        </div>
-    </div>
     </body>
 </html>
