@@ -59,7 +59,13 @@ function SetdlOptions(inFileName) {
         gDriveLink: "None",
         directLink: "es/Stronge_v0.8.zip",
         GitHubLink: "None",
-      }
+      },
+      {
+        fileName: "Stronge_v0.9.zip",
+        gDriveLink: "None",
+        directLink: "es/Stronge_v0.9.zip",
+        GitHubLink: "https://github.com/EyeScary-Development/Stronge-Releases/archive/refs/tags/v0.9.0.zip",
+      },
     ],
   };
 
@@ -113,7 +119,7 @@ function SetdlOptions(inFileName) {
     ghLink.href = "../";
     ghLink.innerHTML = "GitHub Download: None";
   } else {
-    ghLink.href = ghLink;
+    ghLink.href = GitHubLink;
     ghLink.innerHTML = "GitHub Download: " + GitHubLink;
   }
 }
