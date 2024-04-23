@@ -14,7 +14,7 @@
             >
         </div>
         <div class="header">
-            <h1>ESDlang 5 Docs</h1>
+            <h1>ESDlang 6 Docs</h1>
         </div>
         <div class="main">
             <h2>Variables</h2>
@@ -25,7 +25,7 @@
             </p>
             <esd>var coolvariable (value)</esd>
             <p>
-                Variables can have numbers subtracted or added to them, provided
+                Variables can have numbers subtracted or added to them if they already exist, provided
                 they are formatted as a number when initially made, it looks
                 like this
             </p>
@@ -70,10 +70,12 @@
                 >if coolvariable = test<br />write The variable is equal to
                 test!<br />else<br />write The variable is not equal to test!<br />endstat</esd
             >
+            <h2>While statements</h2>
+            <p>While statements take the same conditions as if statements, but with while instead at the start. At the end, though, for the sake of our interpreter, we are using endwhile instead of endstat for while statements</p>
+            <esd>var nice 5<br>while nice > 0<br>write nice<br>var nice -1<br>endwhile</esd>
             <h2>Random Numbers</h2>
             <p>
-                Random numbers are created using radnom and with the newest
-                update to ESDlang, you can now make them as big as you want
+                Random numbers are created using radnom and since ESDLang 3.5, you can now make them as big as you want
                 instead of the max being 9, here's how to make a variable that
                 is a random number
             </p>
@@ -82,7 +84,7 @@
                 supercoolnumber</esd
             >
             <h2>Maths operations</h2>
-            <p> currently maths operations are only available for 3 part equations. one can be formatted by using <br> <br> <esd>3 * var</esd> <br> <br> Variables (as seen in example) can be used as values in equations if they are numbers
+            <p> currently maths operations are only available for 3 part equations. one can be formatted by using <br> <br> <esd>3 * variable</esd> <br> <br> Variables (as seen in example) can be used as values in equations if they are numbers
         </div>
     </body>
 </html>
