@@ -114,7 +114,7 @@ button,a{
  text-decoration:none;
 }
 
-button:hover{
+button:hover, a:hover{
  background-color:#1e1e2e;  
 }
 
