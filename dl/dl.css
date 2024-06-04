@@ -1,35 +1,155 @@
-h1 {
-    font-size: 5vw;
-    text-align: center;
+/*
+Pittab Site Style Betterificator 1.2 (MODIFIED)
+Colour Scheme: Catppuccin Mocha
+License: You can use this in whatever way you want, unless what you want to do is barred. What you can't do: you cannot claim it as your own invention unless you have modified it in some way other than changing the name
+One thing I must ask is that this block is never deleted from the file so the license is always available for reference
+Something to know: You'll want to put the content of your page in a content div, so the rounded box with the content of the site works
+*/
+
+ /*////*/
+/*body*/
+
+body{
+  font-family:sans-serif;
+  font-size:16px;
+  background-color:#11111b;
+  color:#cdd6f4;
+  margin:50px;
 }
 
-h2 {
-    font-size: 3vw;
-    text-align: center;
+ /*//////////////////////////////////*/
+/*content (put page content in this)*/
+
+#content{
+  font-family:sans-serif;
+  font-size:16px;
+  background-color:#1e1e2e;
+  color:#cdd6f4;
+  margin:70px;
+  padding:50px;
+  border-radius:32px;
 }
 
-a {
-    font-size: 2vw;
-    text-align: center;
-    color: #d1d4dc;
-    text-decoration: none;
+ /*////////*/
+/*headings*/
+
+h1{
+  font-size:32px;
+  font-weight:800;
 }
 
-.buttonkinda {
-    background-color: #252526;
-    color: white;
-    border-radius: 18px;
-    text-align: center;
-    padding: 24px;
-    width: auto;
-    float: center;
+h2{
+  font-size:24px;
+  font-weight:650;
+}
+h3{
+  font-size:18px;
+  font-weight:600;
+}
+h4{
+  font-size:16px;
+  font-weight:550;
+}
+h5{
+  font-size:14px;
+  font-weight:500;
+}
+h6{
+  font-size:12px;
+  font-weight:450;
 }
 
-body {
-    background-color: #1a1a1a;
-    font-family: Calibri, sans-serif;
-    color: #d1d4dc;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
+
+ /*///////////////////*/
+/*paragraphs and bold*/
+
+p{
+  font-weight:550;
+  margin:auto;
+}
+
+b,strong{
+  font-family:verdana;
+  font-weight:900;
+}
+
+
+ /*////*/
+/*code*/
+
+code{
+  font-family:monospace;
+  display: flex;
+  padding:12px;
+  margin-top:10px;
+  margin-bottom:10px;
+  border-radius:12px;
+  font-size:14px;
+  background-color:#11111b;
+  color:#cdd6f4;
+  font-weight:650;
+}
+
+ /*////*/
+/*list*/
+
+li{
+  margin:10px;
+}
+
+ /*///////*/
+/*buttons*/
+
+button,a{
+ background-color:#181825;  
+ color:#cdd6f4;
+ border-width:0px;
+ border-radius:12px;
+ font-family:sans-serif;
+ font-weight:650;
+ font-size:16px;
+ padding:10px;
+ margin-top:10px;
+ margin-bottom:10px;
+}
+
+button:hover{
+ background-color:#1e1e2e;  
+}
+
+ /*///////*/
+/*spacers*/
+
+spacer{
+  display: block;
+  padding:2%;  
+}
+minispacer{
+  display: block;
+  padding:0.5%;  
+}
+
+ /*//////*/
+/*inputs*/
+
+input, textarea{
+  border-radius:8px;
+  font-family:sans-serif;
+  font-weight:550;
+  font-size:16px;
+  border:none;
+  padding:12px;
+  background-color:#181825;
+  color:#cdd6f4;
+}
+
+input:focus, textarea:focus{
+  border-radius:8px;
+  font-family:sans-serif;
+  font-weight:550;
+  font-size:16px;
+  border:1px solid #cdd6f4;
+  padding:12px;
+  background-color:#181825;
+  color:#cdd6f4;
 }
