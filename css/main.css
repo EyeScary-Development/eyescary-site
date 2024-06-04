@@ -1,0 +1,56 @@
+@import url("pittabssb.css");
+
+
+p {
+    padding: 1px;
+}
+
+.content {
+    margin: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.spacer {
+    padding: 2%;
+}
+
+
+/* All of the 0 !importants are to cancel the pittabssb.css rules*/
+.inlinecode {
+    display: inline;
+    padding:2px !important;
+    margin-top:0 !important;
+    margin-bottom:0 !important;
+    border-radius:0 !important;
+    font-size:14px;
+    background-color:#11111b;
+    color:#cdd6f4;
+    font-weight:650;
+}
+
+@media screen and (max-width: 1000px){
+    body {
+        margin: 10px;
+    }
+
+    .content {
+        border-radius: 30px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    body {
+        margin: 0px;
+    }
+
+    .content {
+        border-radius: 20px;
+        padding: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

@@ -1,5 +1,5 @@
 /*
-Pittab Site Style Betterificator 1.2 (MODIFIED)
+Pittab Site Style Betterificator 1.2
 Colour Scheme: Catppuccin Mocha
 License: You can use this in whatever way you want, unless what you want to do is barred. What you can't do: you cannot claim it as your own invention unless you have modified it in some way other than changing the name
 One thing I must ask is that this block is never deleted from the file so the license is always available for reference
@@ -20,7 +20,7 @@ body{
  /*//////////////////////////////////*/
 /*content (put page content in this)*/
 
-#content{
+.content{ /*! Note from wilbur - i had to modify this to be a class not id. IDs are only meant to be ONE element, NOT MULTIPLE.*/
   font-family:sans-serif;
   font-size:16px;
   background-color:#1e1e2e;
@@ -90,6 +90,20 @@ code{
   font-weight:650;
 }
 
+ /*///////*/
+/*anchors*/
+
+a{
+  text-decoration:none;
+  color:#cdd6f4;
+  font-weight:650;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+a:hover{
+  color:#a6adc8;
+}
+
  /*////*/
 /*list*/
 
@@ -100,7 +114,7 @@ li{
  /*///////*/
 /*buttons*/
 
-button,a{
+button{
  background-color:#181825;  
  color:#cdd6f4;
  border-width:0px;
@@ -111,10 +125,9 @@ button,a{
  padding:10px;
  margin-top:10px;
  margin-bottom:10px;
- text-decoration:none;
 }
 
-button:hover, a:hover{
+button:hover{
  background-color:#1e1e2e;  
 }
 
