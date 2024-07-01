@@ -8,6 +8,7 @@ function Nav(){
         <a href="stronge.html"><button class="button">Stronge code editor</button></a>
         <a href="padms.html"><button class="button">Padms</button></a>
         <a href="CS.html"><button class="button">CS products</button></a>
+        <a href="JSUI.html"><button class="button">JSUI</button></a>
         <a href="allversiondownloads.html"><button class="button">All our downloads</button></a>
     </div>
     `
