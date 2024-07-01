@@ -5,6 +5,10 @@ p {
     padding: 1px;
 }
 
+.tab{
+    margin:5px;
+}
+
 .content {
     margin: 0;
     margin-left: 40px;

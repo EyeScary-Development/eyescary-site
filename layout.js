@@ -1,18 +1,14 @@
-//Dreamland v0.0.22 required
-
-function Nav(){
-    return html`
-    <div>
-        <a href="index.html"><button class="button">Home</button></a>
-        <a href="ESDLang.html"><button class="button">ESDLang</button></a>
-        <a href="stronge.html"><button class="button">Stronge code editor</button></a>
-        <a href="padms.html"><button class="button">Padms</button></a>
-        <a href="CS.html"><button class="button">CS products</button></a>
-        <a href="allversiondownloads.html"><button class="button">All our downloads</button></a>
-    </div>
-    `
-}
-
-window.addEventListener('load', () => {
-    document.getElementById("nav").appendChild(h(Nav));
-});
+A("link1", "", "", "index.html", document.getElementById("nav"))
+Button("", "tab", "Home", "", document.getElementById("link1"))
+A("link2", "", "", "ESDLang.html", document.getElementById("nav"))
+Button("", "tab", "ESDLang", "", document.getElementById("link2"))
+A("link3", "", "", "CS.html", document.getElementById("nav"))
+Button("", "tab", "CS Products", "", document.getElementById("link3"))
+A("link4", "", "", "stronge.html", document.getElementById("nav"))
+Button("", "tab", "Stronge code editor", "", document.getElementById("link4"))
+A("link5", "", "", "padms.html", document.getElementById("nav"))
+Button("", "tab", "Padms", "", document.getElementById("link5"))
+A("link6", "", "", "JSUI.html", document.getElementById("nav"))
+Button("", "tab", "JSUI", "", document.getElementById("link6"))
+A("link7", "", "", "allversiondownloads.html", document.getElementById("nav"))
+Button("", "tab", "All version downloads", "", document.getElementById("link7"))
