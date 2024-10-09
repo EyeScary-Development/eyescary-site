@@ -13,6 +13,12 @@ function SetdlOptions(inFileName) {
         GitHubLink: "None",
       },
       {
+        fileName: "ESDLarch.zip",
+        gDriveLink: "None",
+        directLink: "es/ESDLarch.zip",
+        GitHubLink: "None",
+      },
+      {
         fileName: "Stronge_v0.1.zip",
         gDriveLink: "None",
         directLink: "es/Stronge_v0.1.zip",
@@ -64,14 +70,16 @@ function SetdlOptions(inFileName) {
         fileName: "Stronge_v0.9.zip",
         gDriveLink: "None",
         directLink: "es/Stronge_v0.9.zip",
-        GitHubLink: "https://github.com/EyeScary-Development/Stronge-Releases/archive/refs/tags/v0.9.0.zip",
+        GitHubLink:
+          "https://github.com/EyeScary-Development/Stronge-Releases/archive/refs/tags/v0.9.0.zip",
       },
       {
         fileName: "Stronge_v0.10.zip",
         gDriveLink: "None",
         directLink: "es/Stronge_v0.10.zip",
-        GitHubLink: "https://github.com/EyeScary-Development/Stronge-Releases/archive/refs/tags/v0.10.0.zip",
-      }
+        GitHubLink:
+          "https://github.com/EyeScary-Development/Stronge-Releases/archive/refs/tags/v0.10.0.zip",
+      },
     ],
   };
 

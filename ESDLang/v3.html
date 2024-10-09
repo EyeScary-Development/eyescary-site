@@ -20,14 +20,14 @@
             <h2>Variables</h2>
             <p>
                 Variables are created in a very simple way. You write "var
-                (variablename) (variablevalue)" Since codeLang 4, variables have been
-                dynamically typed and so don't need their types declaring
+                (variablename) (variablevalue)" Since codeLang 4, variables have
+                been dynamically typed and so don't need their types declaring
             </p>
             <code>var coolvariable (value)</code>
             <p>
-                Variables can have numbers subtracted or added to them if they already exist, provided
-                they are formatted as a number when initially made, it looks
-                like this
+                Variables can have numbers subtracted or added to them if they
+                already exist, provided they are formatted as a number when
+                initially made, it looks like this
             </p>
             <code
                 >var supercoolnumber 12<br />
@@ -71,20 +71,52 @@
                 test!<br />else<br />write The variable is not equal to test!<br />endstat</code
             >
             <h2>While statements</h2>
-            <p>While statements take the same conditions as if statements, but with while instead at the start. At the end, though, for the sake of our interpreter, we are using endwhile instead of endstat for while statements</p>
-            <code>var nice 5<br>while nice > 0<br>write nice<br>var nice -1<br>endwhile</code>
+            <p>
+                While statements take the same conditions as if statements, but
+                with while instead at the start. At the end, though, for the
+                sake of our interpreter, we are using endwhile instead of
+                endstat for while statements
+            </p>
+            <code
+                >var nice 5<br />while nice > 0<br />write nice<br />var nice
+                -1<br />endwhile</code
+            >
+            <h2>Functions</h2>
+            <p>
+                As of ESDLang 7, you can now create basic functions! an example
+                of what this might look like and how to call them is below
+            </p>
+            <code>
+                function test1 write test 1 complete endfunction test 1 test1 1
+                test1 2
+            </code>
+            <p>
+                you'll notice the numbers after the stating of the function
+                name, if you plan on calling a function multiple times, add some
+                kind of identifier (number, string) after the call so that our
+                interpreter can find exactly which point you called the function
+                this time
+            </p>
             <h2>Random Numbers</h2>
             <p>
-                Random numbers are created using radnom and since codeLang 3.5, you can now make them as big as you want
-                instead of the max being 9, here's how to make a variable that
-                is a random number
+                Random numbers are created using radnom and since codeLang 3.5,
+                you can now make them as big as you want instead of the max
+                being 9, here's how to make a variable that is a random number
             </p>
             <code
                 >var supercoolnumber radnom 23 67<br />write your age is
                 supercoolnumber</code
             >
             <h2>Maths operations</h2>
-            <p> currently maths operations are only available for 3 part equations. one can be formatted by using <br> <br> <code>3 * variable</code> <br> <br> Variables (as seen in example) can be used as values in equations if they are numbers
+            <p>
+                currently maths operations are only available for 3 part
+                equations. one can be formatted by using <br />
+                <br />
+                <code>3 * variable</code> <br />
+                <br />
+                Variables (as seen in example) can be used as values in
+                equations if they are numbers
+            </p>
         </div>
     </body>
 </html>
