@@ -10,8 +10,92 @@
         <div id="nav">
           <button><a href="../stronge.html">Go back to the not dev thing</a></button>
         </div>
-        <div class="content"><h2>Stronge-harmony</h2><br>Any of you ever heard of osu!(lazer)?</div>
-        <div class="content">So like, we rewrote Stronge again<br>So what does it actually do over Stronge?<br><ul><li>We added find and replace</li><li>Multi language code running</li><li>Multi language syntax highlighting and autocomplete</li><li>Vim style commands like ": q"</li></ul></div>
-        <div class="content"><h2>Can download?</h2>Maybe. Soon<sup>tm</sup></div>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmony - EyeScary Development</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Stronge-harmony</h1>
+        <p>Anyone here heard of osu!(lazer)?</p>
+    </div>
+    
+    <div class="content">
+        <h2>What makes it better?</h2>
+        <ul>
+            <li>It has been written from the ground up, designed with the goal to have the same base functionality as Stronge</li>
+            <li>It's more line efficient</li>
+            <li>So it's more storage efficient</li>
+            <li>A new syntax highlighting system is more efficient</li>
+            <li>Multiple languages have been implemented from the start to avoid turning into another ESDLang IDE</li>
+            <li>We implemented vim-like commands such as <code>:dl</code>, <code>:q</code>, <code>:rn</code></li>
+            <li>Unlike vim, we have autosave</li>
+        </ul>
+    </div>
+    
+    <div class="content">
+        <h2>What has been added on top of base Stronge functionality?</h2>
+        <ul>
+            <li>Find and replace</li>
+            <li>Multiple language syntax highlighting</li>
+            <li>Indents actually show up</li>
+            <li>When choosing a file, there is a toggleable setting that lets you show a list of the files in the current directory</li>
+            <li>The <code>:sf</code> command allows you to rapidly change between files without restarting the editor</li>
+            <li>Completely unrelated, but there's an install script now?</li>
+            <li>So far, uhhh, that's kinda it?</li>
+        </ul>
+    </div>
+    
+    <div class="content">
+        <h2>Installation</h2>
+        <p><strong>To use the autoinstall script, you must be on a nix-based OS and use fish, zsh, or bash</strong></p>
+        <h3>Auto installation script</h3>
+        <ol>
+            <li>Download the source code</li>
+            <li>Extract it into a folder called 'Harmony' in your home directory</li>
+            <li>Navigate to the folder using <code>cd</code></li>
+            <li>Run the <code>harmony-setup.sh</code> file</li>
+            <li>Input the shell you use</li>
+            <li>Done! Restart your shell instance, and you can now type 'harmony' from anywhere to open Harmony in that directory</li>
+        </ol>
+        <h3>Manual installation (Windows, Mac, non-zsh/bash/fish users)</h3>
+        <ol>
+            <li>Download the source code</li>
+            <li>Extract it into any folder</li>
+            <li>Create an alias for Harmony or whatever you want to call it, and set it to alias <code>'python3 ~/path/to/harmony/menu.py'</code></li>
+            <li>Done! Restart your shell instance, and you can now type the alias you chose from anywhere to open Harmony in that directory</li>
+        </ol>
+    </div>
+    
+    <div class="content">
+        <h2>What makes it better than Stronge for writing ESDLang?</h2>
+        <p>A new comprehensively simple syntax highlighting system with planned snippet integration will make error spotting simpler by having one category of error highlighting instead of two.</p>
+    </div>
+    
+    <div class="content">
+        <h2>What makes it better than Stronge for other languages?</h2>
+        <p>
+            Unlike Stronge, which went on the path of "ESDLang IDE" the day version 0.1 was first written, Harmony was designed to be multilingual with a language server manager 
+            that is simple and able to understand what language you are writing in and pick the appropriate syntax highlighting mechanism. From the beginning, we're committed to 
+            you being able to run code in multiple languages like Python, Java, and maybe, eventually, soon™️, C, C#, and C++.
+        </p>
+    </div>
+    
+    <div class="content">
+        <h2>Roadmap</h2>
+        <ul>
+            <li>[x] Menu, like in Stronge</li>
+            <li>[ ] Better syntax highlighting</li>
+            <li>[x] Autocomplete bracket matching/quote matching (maybe)</li>
+            <li>[ ] idk maybe songs again for funni</li>
+            <li>[ ] <del>Maybe migrate to actual TUI</del> NO</li>
+        </ul>
+    </div>
+</body>
+</html>
+
     </body>
 </html>
