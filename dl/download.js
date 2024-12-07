@@ -80,6 +80,13 @@ function SetdlOptions(inFileName) {
         GitHubLink:
           "https://github.com/EyeScary-Development/Stronge-Releases/archive/refs/tags/v0.10.0.zip",
       },
+      {
+        fileName: "Stronge_v0.11.zip",
+        gDriveLink: "None",
+        directLink: "es/Stronge_v0.11.zip",
+        GitHubLink:
+          "https://github.com/EyeScary-Development/Stronge-Releases/archive/refs/tags/v0.11.0.zip",
+      },
     ],
   };
 
