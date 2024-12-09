@@ -13,6 +13,12 @@ function SetdlOptions(inFileName) {
         GitHubLink: "None",
       },
       {
+        fileName: "Harmony.zip",
+        gDriveLink: "None",
+        directLink: "es/Harmony.zip",
+        GitHubLink: "None",
+      },
+      {
         fileName: "ESDLarch.zip",
         gDriveLink: "None",
         directLink: "es/ESDLarch.zip",
