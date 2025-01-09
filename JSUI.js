@@ -7,6 +7,13 @@ function Button(id, group, text, onclick, target){
   target.appendChild(button);
 }
 
+function Meta(name, content) {
+    const metaTag = document.createElement('meta');
+    metaTag.setAttribute('name', name);
+    metaTag.setAttribute('content', content);
+    document.head.appendChild(metaTag);
+}
+
 function Div(id, group, target){
   var div = document.createElement('div');
   div.id = id;
