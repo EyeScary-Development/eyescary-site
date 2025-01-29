@@ -1,0 +1,21 @@
+---
+import Nav from "../components/Nav.astro"
+interface Props {
+title: string;
+}
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <link href="/css/main.css" rel="stylesheet">
+  <title>{title}</title>
+</head>
+<body>
+  <Nav></Nav>
+  <div class="thesite">
+    <slot />
+  </div>
+</body>
+</html>

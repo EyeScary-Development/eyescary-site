@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro'
+---
+
+<Layout title="Home - EyeScary Development">
+        <h1>AGPM</h1>
+        <p>A package manager in python (arch please don't sue for the name) (rust based clients welcome!)</p>
+        <a href="https://eyescary-development.github.io/CDN/agpm_packages/agpm/protocols/install.sh"><button>Download the install script</button></a>
+        <p>NEWS!: Updating works like a normal package manager, by cross checking local metadata with "cloud" metadata to see if an update is needed</p>
+    </div>
+      <h2>Why?</h2>
+      <p>Basically we wanted to give you all a way to install and update our products issue free. And also Pittab had to do his DofE project</p>
+      <h2>How do I add my packages?</h2>
+      <p>make a PR to our CDN, put a folder in agpm_packages that contains a package.zip and a protocols folder with and install.sh, uninstall.sh and update.sh script to do what they say on the tin, add your package name to the package list, and create a metadata.json with a version, description, and release notes for the latest version (maybe we'll make an auto generator for the metadata and install script) and you're done! (note: we may not accept your pr tho)</p>
+
+</Layout>

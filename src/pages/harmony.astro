@@ -1,0 +1,82 @@
+---
+import Layout from '../layouts/Layout.astro'
+---
+
+<Layout title="Home - EyeScary Development">
+        <h1>Harmony</h1>
+        <p>Anyone here heard of osu!(lazer)?</p>
+        <a href="/dl/Harmony.zip"><button>Download the 0.3 preview</button></a>
+        <h5>Or you can install it through <a href="/agpm/">AGPM</a>, in just one step - hassle free</h5>
+    
+      <p>Basically a rewrite of Stronge, the "beta"</p>
+      <p>NEWS!: Harmony version 0.3 is here, and has brought some major fixes, the commands now no longer need spaces between the colons, the autoinstall script now works in any directory, and the autocorrect now doesn't delete your indents. w o w</p>
+
+        <h2>What makes it better?</h2>
+        <ul>
+            <li>It has been written from the ground up, designed with the goal to have the same base functionality as Stronge</li>
+            <li>It's more line efficient</li>
+            <li>So it's more storage efficient</li>
+            <li>A new syntax highlighting system is more efficient</li>
+            <li>Multiple languages have been implemented from the start to avoid turning into another ESDLang IDE</li>
+            <li>We implemented vim-like commands such as <code class="inlinecode">:dl</code>, <code class="inlinecode">:q</code>, <code class="inlinecode">:rn</code></li>
+            <li>Unlike vim, we have autosave</li>
+        </ul>
+    
+        <h2>What has been added on top of base Stronge functionality?</h2>
+        <ul>
+            <li>Find and replace</li>
+            <li>A VASTLY superior line editing system which doesn't require you to rewrite a whole line if you only need to edit it</li>
+            <li>Multiple language syntax highlighting</li>
+            <li>Indents actually show up</li>
+            <li>When choosing a file, there is a toggleable setting that lets you show a list of the files in the current directory</li>
+            <li>The <code>:sf</code> command allows you to rapidly change between files without restarting the editor</li>
+            <li>Completely unrelated, but there's an install script now?</li>
+            <li>So far, uhhh, that's kinda it?</li>
+        </ul>
+    
+        <h2>Installation</h2>
+        <p><strong>To use the autoinstall script, you must be on a nix-based OS and use fish, zsh, or bash</strong></p>
+        <h5>Or you can install it through <a href="/agpm/">AGPM</a>, in just one step - hassle free</h5>
+        <h3>Auto installation script</h3>
+        <ol>
+            <li>Download the source code</li>
+            <li>Extract it into a folder</li>
+            <li>Navigate to the folder using <code>cd</code></li>
+            <li>Run the <code>harmony-setup.sh</code> file</li>
+            <li>Input the shell you use</li>
+            <li>Done! Restart your shell instance, and you can now type 'harmony' from anywhere to open Harmony in that directory</li>
+        </ol>
+        <h3>Manual installation (Windows, Mac, non-zsh/bash/fish users)</h3>
+        <ol>
+            <li>Download the source code</li>
+            <li>Extract it into any folder</li>
+            <li>Create an alias for Harmony or whatever you want to call it, and set it to alias <code>'python3 ~/path/to/harmony/menu.py'</code></li>
+            <li>Done! Restart your shell instance, and you can now type the alias you chose from anywhere to open Harmony in that directory</li>
+        </ol>
+        <h2>What makes it better than Stronge for writing ESDLang?</h2>
+        <p>A new comprehensively simple syntax highlighting system with planned snippet integration will make error spotting simpler by having one category of error highlighting instead of two.</p>
+    
+        <h2>What makes it better than Stronge for other languages?</h2>
+        <p>
+            Unlike Stronge, which went on the path of "ESDLang IDE" the day version 0.1 was first written, Harmony was designed to be multilingual with a language server manager 
+            that is simple and able to understand what language you are writing in and pick the appropriate syntax highlighting mechanism. From the beginning, we're committed to 
+            you being able to run code in multiple languages like Python, Java, and maybe, eventually, soon™️, C, C#, and C++.
+        </p>
+    
+        <h2>Roadmap</h2>
+        <ul>
+        <li><input type="checkbox" checked disabled> Menu, like in Stronge</li>
+        <li><input type="checkbox" disabled> Better syntax highlighting</li>
+        <li><input type="checkbox" checked disabled> Autocorrect bracket matching/quote matching</li>
+        <li><input type="checkbox" disabled> <s>idk maybe songs again for funni</s> maybe NOT</li>
+        <li><input type="checkbox" disabled> Switch to Stdin for inputs</li>
+        <li><input type="checkbox" disabled> Opening sounds</li>
+        <li><input type="checkbox" checked disabled> replace</li>
+        <li><input type="checkbox" checked disabled> find</li>
+        <li><input type="checkbox" checked disabled> improve line editing</li>
+        <li><input type="checkbox" checked disabled> java syntax highlighting</li>
+        <li><input type="checkbox" checked disabled> Organise things and document</li>
+        <li><input type="checkbox" disabled> extension installer script</li>
+        <li><input type="checkbox" disabled> <s>maybe migrate to actual TUI</s> NO</li>
+        </ul>
+</Layout>
