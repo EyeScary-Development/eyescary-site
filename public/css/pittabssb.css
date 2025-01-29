@@ -35,12 +35,13 @@ button, textarea, input {
   width: 95%;
   margin:20px auto;
   align-items: center;
+  padding:15px;
   background-color: #1e1e2e !important;
 }
 
 .thesite {
-  margin: 5%;
-  display:block;
+  margin: 20px auto;
+  display: block;
   padding: 15px;
   background-color: #1e1e2e;
 }
