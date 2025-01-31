@@ -10,5 +10,18 @@
   },
   "dependencies": {
     "astro": "^5.1.10"
-  }
+  },
+  "description": "```sh npm create astro@latest -- --template minimal ```",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyescary-development/eyescary-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eyescary-development/eyescary-site/issues"
+  },
+  "homepage": "https://github.com/eyescary-development/eyescary-site#readme"
 }
