@@ -9,11 +9,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.1.10"
+    "astro": "^5.18.1"
   },
   "description": "```sh npm create astro@latest -- --template minimal ```",
   "main": "index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eyescary-development/eyescary-site.git"

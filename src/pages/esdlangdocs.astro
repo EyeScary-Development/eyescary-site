@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro'
 ---
 
-<Layout title="Home - EyeScary Development">
+<Layout title="ESDLang Docs - EyeScary Development">
         <h1>ESDLang Docs</h1>
         <h2>Variables</h2>
         <p>
@@ -24,6 +24,12 @@ import Layout from '../layouts/Layout.astro'
             Do note however, you cannot change the size of a variable by a
             radnom or an input
         </p>
+        <h2>Lists</h2>
+         <p>
+           ESDLang now has lists! to create one, simply write 
+           <code>init-list coollist</code> To append to a list use
+            <code>append coollist george</code>To remove from a list use <code>remove coollist george</code>, and to print something from a list use <code class="inlinecode">print coollist.0</code> We intend to make further additions later
+        </p>
         <h2>Writing and Input</h2>
         <p>
             Writing is done by typing 'write' and then any other text on
@@ -44,7 +50,7 @@ import Layout from '../layouts/Layout.astro'
             {"then a condition (=,>=,<=,>,<,x(not equal to)) and then another value, with spaces in between of course. You"}
             write your if-statement affected code below the if statement. Then when you're ready, write else on
             a new line and write your code for if those conditions aren't true, close up the statement with
-            endstat. if you just want an if statement, just leave the else line empty (you still need endstat).
+            endif. if you just want an if statement, just leave the else line empty (you still need endif).
         </p> 
         <code>if coolvariable = test<br>
             write The variable is equal to
@@ -52,7 +58,7 @@ import Layout from '../layouts/Layout.astro'
             else<br>
             write The variable is not equal to test!
             <br>
-            endstat
+            endif
         </code>
         <h2>While statements</h2>
         <p>

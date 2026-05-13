@@ -2,16 +2,18 @@
 import Layout from '../layouts/Layout.astro'
 ---
 
-<Layout title="Home - EyeScary Development">
+<Layout title="ESDLang - EyeScary Development">
         <h1>ESDLang</h1>
         <p>
             a simple programming language with a minimal syntax,
-            currently in version 7
+            currently in version 8
         </p>
+        <br>
         <p>
-            NEWS!: ESDLang 7 is here! It's now got functions! to create one, simply write <code
-                class="inlinecode">function namehere</code>, write your code below and then close the function with
-            <code class="inlinecode">endfunction namehere</code>
+            NEWS!: ESDLang 8 is here! It's now got lists! to create one, simply write <code
+                class="inlinecode">init-list coollist</code>, to append to a list use
+            <code class="inlinecode">append coollist george</code>, to remove from a list use <code class="inlinecode">remove coollist george</code>, and to print something from a list use <code class="inlinecode">print coollist.0</code> We'll work on different stuff for lists later
+            <h5>it's also worth noting that "endstat" has been replaced with "endif", since no other closeable statements used "endstat", so we thought we'd make it more specific</h5>
         </p>
         <h2>What would coding with it look like?</h2>
         <p>
@@ -42,8 +44,7 @@ import Layout from '../layouts/Layout.astro'
             a number may cause the dynamic typing system to fail to
             return the variable to a number<br>
             Must write <code class="inlinecode">quit</code> at the end of your program to
-            close the program (one small problem that comes with the
-            optimisations)<br>
+            close the program (one small problem that comes with optimisations we did to make ESDLang somewhat responsive since it's double interpreted atm)<br>
         </p>
         <h2>Can I download it?</h2>
         <p>Sure, download it here:</p>
