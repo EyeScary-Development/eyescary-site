@@ -7,18 +7,29 @@ import Layout from '../layouts/Layout.astro'
         <p>Anyone here heard of osu!(lazer)?</p>
         <a href="/dl/Harmony.zip"><button>Download the preview</button></a>
         <h5>Or you can install it through <a href="/agpm/">AGPM</a>, in just one step - hassle free</h5>
-    
       <p>Basically a rewrite of Stronge, the "beta"</p>
-      <p>NEWS!: Harmony version 0.4 is here ig, we added back the clear file feature to rapidly clear a file, and also added a thing to let you run terminal commands</p>
+      <h3>NEWS!: Harmony 0.6 has landed</h3>
+      <h4>Changes:</h4>
+        <ul>
+            <li><b>Feature:</b> Added ESDLang version 8 prepackaged</li>
+            <li><b>Feature:</b> Find functionality extended to plaintext (or languages with no language server) files</li>
+            <li><b>Deprecation/change:</b> <code class="inlinecode">:rw</code> no longer automatically adds in the line you're editing because the library we used is only for nix systems. It now instead copies the old line to clipboard and gives a hint. You're welcome Windows users</li>
+            <li><b>Deprecation/change:</b> <code class="inlinecode">:sf</code> is now deprecated due to the below change:</li>
+            <li><b>Optimisation/fix:</b> Code has been massively reorganised to allow the core editor component to be separated from the rest of harmony for other projects (see <a href="https://github.com/EyeScary-Development/Harmony-Editor-Core">Harmony Editor Core</a>)</li>
+            <li><b>Deprecation/change:</b>The reorganise means <code class="inlinecode">:q</code> no longer goes to the menu and just quits the whole thing</li>
+            <li><b>Optimisation/fix:</b> Settings bugs fixed</li>
+            <li><b>Optimisation/fix:</b> Polishing</li>
+            <li><b>Optimisation/fix:</b> Debloat</li>
+            <li><b>Optimisation/fix:</b> Made good</li>
+        </ul>
 
+        <h1>Why Harmony?</h1>
         <h2>What makes it better?</h2>
         <ul>
             <li>It has been written from the ground up, designed with the goal to have the same base functionality as Stronge</li>
-            <li>It's more line efficient</li>
-            <li>So it's more storage efficient</li>
             <li>A new syntax highlighting system is more efficient</li>
             <li>Multiple languages have been implemented from the start to avoid turning into another ESDLang IDE</li>
-            <li>We implemented vim-like commands such as <code class="inlinecode">:dl</code>, <code class="inlinecode">:q</code>, <code class="inlinecode">:rn</code></li>
+            <li>We implemented vim-like commands such as <code class="inlinecode">:rm</code>, <code class="inlinecode">:q</code>, <code class="inlinecode">:rp</code></li>
             <li>Unlike vim, we have autosave</li>
         </ul>
     
@@ -29,9 +40,7 @@ import Layout from '../layouts/Layout.astro'
             <li>Multiple language syntax highlighting</li>
             <li>Indents actually show up</li>
             <li>When choosing a file, there is a toggleable setting that lets you show a list of the files in the current directory</li>
-            <li>The <code>:sf</code> command allows you to rapidly change between files without restarting the editor</li>
             <li>Completely unrelated, but there's an install script now?</li>
-            <li>So far, uhhh, that's kinda it?</li>
         </ul>
     
         <h2>Installation</h2>
@@ -67,7 +76,7 @@ import Layout from '../layouts/Layout.astro'
         <ul>
         <li><input type="checkbox" checked disabled> Menu, like in Stronge</li>
         <li><input type="checkbox" disabled> Better syntax highlighting</li>
-        <li><input type="checkbox" checked disabled> Autocorrect bracket matching/quote matching</li>
+        <li><input type="checkbox" disabled> Autocorrect bracket matching/quote matching (maybe later)</li>
         <li><input type="checkbox" disabled> <s>idk maybe songs again for funni</s> maybe NOT</li>
         <li><input type="checkbox" disabled> Switch to Stdin for inputs</li>
         <li><input type="checkbox" disabled> Opening sounds</li>
